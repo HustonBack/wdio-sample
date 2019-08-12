@@ -3,3 +3,4 @@ Feature: Base test
     Given I am a customer on Homepage
     Then I type "Kiev" in search field
     Then I click Submit button
+    Then Search results description should contain text "Kiev"
