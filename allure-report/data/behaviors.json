@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Given I am a customer on Homepage",
+    "uid" : "16da47982ebe2e1e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1565643137729,
+      "stop" : 1565643165248,
+      "duration" : 27519
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then I type \"Kiev\" in search field",
+    "uid" : "bcaaa376d2226183",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1565643165248,
+      "stop" : 1565643165439,
+      "duration" : 191
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then I click Submit button",
+    "uid" : "a1a4f1eaa819a601",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1565643165439,
+      "stop" : 1565643167117,
+      "duration" : 1678
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

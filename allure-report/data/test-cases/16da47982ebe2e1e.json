@@ -1,0 +1,88 @@
+{
+  "uid" : "16da47982ebe2e1e",
+  "name" : "Given I am a customer on Homepage",
+  "fullName" : "Base test: User journey to hotel.Given I am a customer on Homepage",
+  "historyId" : "1500bb61c1f1fe0610678f150c62151c",
+  "time" : {
+    "start" : 1565643137729,
+    "stop" : 1565643165248,
+    "duration" : 27519
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1565643137736,
+        "stop" : 1565643165246,
+        "duration" : 27510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc3b4fca6411eef8",
+        "name" : "Request",
+        "source" : "fc3b4fca6411eef8.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Base test: User journey to hotel"
+  }, {
+    "name" : "testClass",
+    "value" : "Base test: User journey to hotel"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am a customer on Homepage"
+  }, {
+    "name" : "package",
+    "value" : "Base test: User journey to hotel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16da47982ebe2e1e.json",
+  "parameterValues" : [ "chrome" ]
+}

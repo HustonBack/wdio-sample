@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 12 23:52:45 EEST 2019","Mon Aug 12 23:52:45 EEST 2019","191","","Base test: User journey to hotel","","Base test: User journey to hotel","Then I type ""Kiev"" in search field","Then I type ""Kiev"" in search field",""
+"passed","Mon Aug 12 23:52:17 EEST 2019","Mon Aug 12 23:52:45 EEST 2019","27519","","Base test: User journey to hotel","","Base test: User journey to hotel","Given I am a customer on Homepage","Given I am a customer on Homepage",""
+"passed","Mon Aug 12 23:52:45 EEST 2019","Mon Aug 12 23:52:47 EEST 2019","1678","","Base test: User journey to hotel","","Base test: User journey to hotel","Then I click Submit button","Then I click Submit button",""

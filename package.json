@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "allure": "allure generate && allure open"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/HustonBack/wdio-sample#readme",
   "dependencies": {
-    "@wdio/cli": "^5.11.14"
+    "@wdio/cli": "^5.11.14",
+    "allure-commandline": "^2.9.0"
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^5.11.14",

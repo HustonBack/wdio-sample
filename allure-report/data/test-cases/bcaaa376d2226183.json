@@ -1,0 +1,130 @@
+{
+  "uid" : "bcaaa376d2226183",
+  "name" : "Then I type \"Kiev\" in search field",
+  "fullName" : "Base test: User journey to hotel.Then I type \"Kiev\" in search field",
+  "historyId" : "ca96170e160d48411075bd3b136a794f",
+  "time" : {
+    "start" : 1565643165248,
+    "stop" : 1565643165439,
+    "duration" : 191
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1565643165251,
+        "stop" : 1565643165271,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4071974dec2c3006",
+        "name" : "Request",
+        "source" : "4071974dec2c3006.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "c4bae9eee3e71c7",
+        "name" : "Response",
+        "source" : "c4bae9eee3e71c7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/4ba4759f-5c54-47c3-9d64-47ddef20935f/clear",
+      "time" : {
+        "start" : 1565643165275,
+        "stop" : 1565643165299,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/4ba4759f-5c54-47c3-9d64-47ddef20935f/value",
+      "time" : {
+        "start" : 1565643165302,
+        "stop" : 1565643165439,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b49e5b9c23694da3",
+        "name" : "Request",
+        "source" : "b49e5b9c23694da3.json",
+        "type" : "application/json",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Base test: User journey to hotel"
+  }, {
+    "name" : "testClass",
+    "value" : "Base test: User journey to hotel"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I type \"Kiev\" in search field"
+  }, {
+    "name" : "package",
+    "value" : "Base test: User journey to hotel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcaaa376d2226183.json",
+  "parameterValues" : [ "chrome" ]
+}
