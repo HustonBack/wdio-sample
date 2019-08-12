@@ -20,7 +20,8 @@
   "dependencies": {
     "@wdio/cli": "^5.11.14",
     "allure-commandline": "^2.9.0",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "moment": "^2.24.0"
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^5.11.14",

@@ -4,3 +4,5 @@ Feature: Base test
     Then I type "Kiev" in search field
     Then I click Submit button
     Then Search results description should contain text "Kiev"
+    Then I click on 1 item
+    Then No availability message displayed
