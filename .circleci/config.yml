@@ -28,7 +28,7 @@ jobs:
 
       - run: npm install
       - run: sudo npm i -g webdriver-manager
-      - run: webdriver-manager update
+      - run: sudo webdriver-manager update
 
       - save_cache:
           paths:
