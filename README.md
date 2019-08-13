@@ -14,4 +14,4 @@
 
 ##  Circle CI
 
-Each commit to master verified with Circle CI. Build is successful, id all tests is passing 
+Each commit to master verified with Circle CI. Build is successful, if all tests is passing 
