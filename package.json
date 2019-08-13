@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "wdio wdio.conf.js",
-    "allure": "allure generate && allure open"
+    "allure": "allure generate && allure open",
+    "webdriver-update": "webdriver-manager update"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
     "@wdio/cli": "^5.11.14",
     "allure-commandline": "^2.9.0",
     "chai": "^4.2.0",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "webdriver-manager": "^12.1.6"
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^5.11.14",
