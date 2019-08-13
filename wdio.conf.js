@@ -57,7 +57,7 @@ exports.config = {
         browserName: 'chrome',
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
+        excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     }],
     //
@@ -190,8 +190,9 @@ exports.config = {
     /**
      * Runs before a Cucumber scenario
      */
-    // beforeScenario: function (uri, feature, scenario) {
-    // },
+    beforeScenario: function (uri, feature, scenario) {
+        browser.setWindowSize(1920, 1080)
+    },
     /**
      * Runs before a Cucumber step
      */
