@@ -25,7 +25,12 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
-
+      - run:
+        - name: fix deps
+        - command: |
+            sudo apt-get update
+            sudo apt-get install libgconf2-4 libnss3-1d libxss1 lsb-release
+            sudo apt-get install libappindicator3-1 libasound2 fonts-liberation xdg-utils
       - run: npm install
       - run: sudo npm i -g webdriver-manager
       - run: sudo webdriver-manager update
