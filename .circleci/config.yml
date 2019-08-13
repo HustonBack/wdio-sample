@@ -27,7 +27,7 @@ jobs:
             - v1-dependencies-
       - run: |
             sudo apt-get update
-            sudo apt-get install libgconf2-4 libnss3-1d libxss1 lsb-release
+            sudo apt-get install libgconf2-4 libnss3-dev libxss1 lsb-release
             sudo apt-get install libappindicator3-1 libasound2 fonts-liberation xdg-utils
       - run: npm install
       - run: sudo npm i -g webdriver-manager
