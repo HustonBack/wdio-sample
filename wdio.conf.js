@@ -7,6 +7,7 @@ exports.config = {
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
     runner: 'local',
+    port: 9515, // default for ChromeDriver
     //
     // Override default path ('/wd/hub') for chromedriver service.
     path: '/',
@@ -112,7 +113,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
-    chromeDriverArgs: ['--port=9515', '--url-base=\'/\''],
+    // chromeDriverArgs: ['--host localhost', '--port=9515', '--url-base=\'/\''],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
