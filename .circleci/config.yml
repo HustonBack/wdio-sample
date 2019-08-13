@@ -27,6 +27,8 @@ jobs:
             - v1-dependencies-
 
       - run: npm install
+      - run: npm i -g webdriver-manager
+      - run: webdriver-manager update
 
       - save_cache:
           paths:
