@@ -30,7 +30,7 @@ jobs:
             sudo apt-get install libgconf2-4 libnss3-dev libxss1 lsb-release
             sudo apt-get install libappindicator3-1 libasound2 fonts-liberation xdg-utils
             wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-            dpkg -i google-chrome-stable_current_amd64.deb; apt-get -fy install
+            sudo dpkg -i google-chrome-stable_current_amd64.deb; apt-get -fy install
       - run: npm install
       - run: sudo npm i -g webdriver-manager
       - run: sudo webdriver-manager update
